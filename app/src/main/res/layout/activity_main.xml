@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lckiss.rangedatepicker.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="pickerOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间段选择器(旧的实现方式)"/>
+
+    <Button
+        android:onClick="pickerTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间段选择器(新的实现方式)"/>
+
+    <Button
+        android:onClick="pickerThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间选择器(新的实现方式)"/>
+
+    <Button
+        android:onClick="pickerFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文件(新的实现方式)"/>
+
+
+
+</LinearLayout>
