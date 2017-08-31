@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         picker.setDateRangeEnd(2030, 12, 30);
         picker.setTextSize(16);
         picker.setSelectedItem(year(), month(), day());
-        picker.setSelectedSecondItem(year(), month(), day() + 1);
+        picker.setSelectedSecondItem(year(), month(), day());
         picker.setOnDatePickListener(new DateRangePicker.OnYearMonthDayDoublePickListener() {
             @Override
             public void onDatePicked(String startYear, String startMonth, String startDay, String endYear, String endMonth, String endDay) {
